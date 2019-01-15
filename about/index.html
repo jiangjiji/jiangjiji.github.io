@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta property="og:type" content="website">
+    <meta name="description" content="document.querySelectorAll(&apos;.github-emoji&apos;)           .forEach(el =&amp;gt; {             if (!el.dataset.src) { return; }             const img = document.createElement(&apos;img&apos;);             img.style">
+<meta property="og:type" content="website">
 <meta property="og:title" content="about">
 <meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="document.querySelectorAll(&apos;.github-emoji&apos;)           .forEach(el =&amp;gt; {             if (!el.dataset.src) { return; }             const img = document.createElement(&apos;img&apos;);             img.style">
 <meta property="og:locale" content="default">
 <meta property="og:updated_time" content="2019-01-15T10:11:50.552Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="about">
+<meta name="twitter:description" content="document.querySelectorAll(&apos;.github-emoji&apos;)           .forEach(el =&amp;gt; {             if (!el.dataset.src) { return; }             const img = document.createElement(&apos;img&apos;);             img.style">
     
     
         
@@ -84,7 +87,25 @@
 
   <div class="content" itemprop="articleBody">
       
-          
+          <script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
         
   </div>
 </article>
