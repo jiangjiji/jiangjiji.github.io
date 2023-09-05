@@ -1,7 +1,5 @@
 yarn docs:build
 
-Set-Location docs/.vuepress/dist
-
 git init
 git add -A
 git commit -m ("Release on " +  (get-date -format "yyyyMM HHdd"))
