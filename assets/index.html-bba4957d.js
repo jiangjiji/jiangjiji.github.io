@@ -1,0 +1,1 @@
+const i=JSON.parse('{"key":"v-0d7a7f7f","path":"/doc-windows_delphi/","title":"技术积累","lang":"zh-CN","frontmatter":{"title":"技术积累"},"headers":[],"git":{"updatedTime":1694080245000,"contributors":[{"name":"Jiang","email":"jiangliangiobit@gmail.com","commits":1}]},"filePathRelative":"doc-windows&delphi/README.md"}');export{i as data};
