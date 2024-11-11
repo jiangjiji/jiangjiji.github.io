@@ -7,14 +7,14 @@ hero:
   tagline: Don't copy yourself.
   actions:
     - theme: brand
-      text: Delphi开发
-      link: /docs/doc-windows&delphi/index
+      text: 最新文章
+      link: /pages/latest-page
     - theme: alt
-      text: 前端开发
-      link: /docs/doc-react/index
+      text: 所有文章
+      link: /pages/latest-page
     - theme: alt
-      text: 读书笔记
-      link: /docs/doc-read-book/index
+      text: 分类
+      link: /pages/category-page
 
 features:
 - title: Delphi开发经验

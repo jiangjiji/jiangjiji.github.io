@@ -1,6 +1,16 @@
 {
+  "name": "jiangjiji-blog",
+  "version": "1.0.0",
+  "type": "module",
+  "author": {
+    "name": "jiangjiji",
+    "email": "jiang_jiji@foxmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://jiangjiji.github.io/",
   "devDependencies": {
-    "vitepress": "^1.5.0"
+    "vitepress": "^1.5.0",
+    "vitepress-sidebar": "^1.29.0"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
