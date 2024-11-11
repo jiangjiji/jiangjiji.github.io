@@ -7,6 +7,9 @@ const vitePressConfig: UserConfig<DefaultTheme.Config> = {
   title: "Jiang's Blog",
   description: "Jiang's 的个人博客",
   lang: "zh-CN",
+  head: [
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-Yxp179tiHM' }],
+  ],
   sitemap: {
     hostname: "https://jiangjiji.github.io/",
   },
