@@ -24,7 +24,7 @@ const vitePressConfig: UserConfig<DefaultTheme.Config> = {
       documentRootPath: "/",
       scanStartPath: "/docs/",
       sortMenusByName: true,
-      sortMenusOrderByDescending: true
+      sortMenusOrderByDescending: true,
     }),
 
     search: {
@@ -47,8 +47,8 @@ const vitePressConfig: UserConfig<DefaultTheme.Config> = {
 
 const vitePressI18nConfig = {
   // VitePress I18n config
-  locales: ['zhHans'],
-  searchProvider: "local" // enable search with auto translation
+  locales: ["zhHans"],
+  searchProvider: "local" as const, // enable search with auto translation
 };
 
 export default defineConfig(withI18n(vitePressConfig, vitePressI18nConfig));
