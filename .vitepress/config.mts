@@ -9,6 +9,7 @@ const vitePressConfig: UserConfig<DefaultTheme.Config> = {
   lang: "zh-CN",
   head: [
     ['meta', { name: 'baidu-site-verification', content: 'codeva-Yxp179tiHM' }],
+    ['meta', { name: 'google-site-verification', content: '6pEelJ3RAKvNAaBNiwp_dpHvOBS4gEoDdVyuHQ5_4sk' }],
   ],
   sitemap: {
     hostname: "https://jiangjiji.github.io/",
