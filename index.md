@@ -21,5 +21,5 @@ features:
 - title: FabricJS 中文文档
   details: 基于Fabric.js v6最新版文档翻译
   linkText: 访问
-  link: https://github.com/jiangjiji/fabricjs-docs-cn  
+  link: https://jiangjiji.github.io/fabricjs-docs-cn/
 ---
