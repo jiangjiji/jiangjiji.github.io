@@ -39,6 +39,11 @@ const vitePressConfig: UserConfig<DefaultTheme.Config> = {
     },
     socialLinks: [{ icon: "github", link: "https://github.com/jiangjiji" }],
 
+    footer: {
+      message: '基于 MIT 许可发布',
+      copyright: '版权所有 © 2023 <a href="https://github.com/jiangjiji">Jiangjiji</a>'
+    },
+
     // 文档配置
     lastUpdated: {
       formatOptions: {
