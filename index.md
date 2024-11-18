@@ -19,7 +19,7 @@ hero:
 
 features:
 - title: FabricJS 中文文档
-  details: 基于Fabric.js v6最新版文档翻译
+  details: 基于 Fabric.js v6 最新版文档翻译
   linkText: 访问
   link: https://jiangjiji.github.io/fabricjs-docs-cn/
 ---
