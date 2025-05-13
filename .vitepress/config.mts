@@ -1,6 +1,6 @@
-import { DefaultTheme, defineConfig, UserConfig } from 'vitepress';
-import { withI18n } from 'vitepress-i18n';
-import { generateSidebar } from 'vitepress-sidebar';
+import { DefaultTheme, defineConfig, UserConfig } from "vitepress";
+import { withI18n } from "vitepress-i18n";
+import { generateSidebar } from "vitepress-sidebar";
 
 // https://vitepress.dev/reference/site-config
 const vitePressConfig: UserConfig<DefaultTheme.Config> = {
@@ -8,8 +8,8 @@ const vitePressConfig: UserConfig<DefaultTheme.Config> = {
   description: "Jiang's 的个人博客",
   lang: "zh-CN",
   head: [
-    ['meta', { name: 'baidu-site-verification', content: 'codeva-Yxp179tiHM' }],
-    ['meta', { name: 'google-site-verification', content: '6pEelJ3RAKvNAaBNiwp_dpHvOBS4gEoDdVyuHQ5_4sk' }],
+    ["meta", { name: "baidu-site-verification", content: "codeva-Yxp179tiHM" }],
+    ["meta", { name: "google-site-verification", content: "6pEelJ3RAKvNAaBNiwp_dpHvOBS4gEoDdVyuHQ5_4sk" }],
   ],
   sitemap: {
     hostname: "https://jiangjiji.github.io/",
@@ -40,8 +40,8 @@ const vitePressConfig: UserConfig<DefaultTheme.Config> = {
     socialLinks: [{ icon: "github", link: "https://github.com/jiangjiji" }],
 
     footer: {
-      message: '基于 MIT 许可发布',
-      copyright: '版权所有 © 2023 <a href="https://github.com/jiangjiji">Jiangjiji</a>'
+      message: "基于 MIT 许可发布",
+      copyright: '版权所有 © 2023 <a href="https://github.com/jiangjiji">Jiangjiji</a>',
     },
 
     // 文档配置

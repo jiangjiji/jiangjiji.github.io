@@ -1,7 +1,8 @@
 ---
 layout: doc
-title: FabricJS 中文编写
+title: FabricJS 中文编写心得
 date: 2024-11-12
+category: 工具
 ---
 
 # FabricJS 中文编写

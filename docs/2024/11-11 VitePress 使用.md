@@ -1,7 +1,8 @@
 ---
 layout: doc
-title: VitePress 使用
+title: VitePress 进阶使用
 date: 2024-11-11
+category: 工具
 ---
 
 # VitePress 使用

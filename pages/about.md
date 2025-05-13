@@ -4,16 +4,15 @@ sidebar: false
 aside: false
 ---
 
-# Hi I'm Jiangjiji 👋
+## Hi I'm Jiangjiji 👋
 
-Current skill tree
-
-- Windows Software development ⭐⭐⭐⭐⭐
-- Delphi ⭐⭐⭐⭐⭐
-- Web developemnt ⭐⭐⭐
-- Python ⭐⭐
+- Windows Software development⭐⭐⭐⭐ 
+- Delphi ⭐⭐⭐      
+- Web developemnt (Typescprit, React, Lit) ⭐⭐                    
+- Python ⭐
 
 -------
 
-- 🔭 I'm currently working on [FabricJS 中文文档](https://github.com/jiangjiji/fabricjs-docs-cn)
-- 🌱 I'm currently learning Web development, specail video editing timeline on web.
+- 🌱 I’m currently learning Web development, specail video editing and powrpoint editing on web.
+- 🔭 I’m currently also focus on [ios-music-controller](https://github.com/jiangjiji/ios-music-controller)
+

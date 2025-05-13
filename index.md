@@ -18,8 +18,17 @@ hero:
       link: /pages/category-page
 
 features:
-- title: FabricJS 中文文档
+- icon: 
+    src: https://github.com/jiangjiji/jira-notifier/blob/main/public/icon.svg?raw=true
+  title: Jira Notifier
+  details: Jira Bug 提示插件 
+  linkText: 访问
+  link: https://github.com/jiangjiji/jira-notifier
+- icon: 
+    src: https://github.com/jiangjiji/fabricjs-docs-cn/blob/main/public/favicon.ico?raw=true
+  title: FabricJS 中文文档
   details: 基于 Fabric.js v6 最新版文档翻译
   linkText: 访问
   link: https://jiangjiji.github.io/fabricjs-docs-cn/
+
 ---
