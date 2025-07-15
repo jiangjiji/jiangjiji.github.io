@@ -9,9 +9,9 @@
   "license": "MIT",
   "homepage": "https://jiangjiji.github.io/",
   "devDependencies": {
-    "vitepress": "^1.5.0",
-    "vitepress-i18n": "^1.3.0",
-    "vitepress-sidebar": "^1.29.0"
+    "vitepress": "^1.6.3",
+    "vitepress-i18n": "^1.3.4",
+    "vitepress-sidebar": "^1.32.1"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
